@@ -1,36 +1,23 @@
 # Machine-Learning-ECEN-765
-Book Recommendation System Based on Collaborative Filtering 
 
-Objective:  
+This work has been done as a part of academic project for subject “Machine Learning with Networks”. A lot of research has been performed on the recommendation system based on collaborative filtering, but cold start issue seems to have been ignored in most of the studies. Hence, I wish to dedicate this project to address the cold start problem. The purpose of this project is not to improvise any existing techniques but to identify if the user’s demographic or entropy0 scores can have any impact while addressing the cold start problem in collaborative filtering system.  
+ 
+First a basic recommendation system was implemented, it is being used as the base model. Any of the implemented model is compared to this model to see if there has been any improvement. Overall 4 models were implemented including the basic one. 
+ 
+Also, apart from the project implementation I have dedicated time to learn about the recent research work being done on “Cold Start problem in Recommendation System” and identify the areas where this project can be further taken to
 
-Collaborative filtering is based on the idea of customer segmentation. It has been observed that people who have who show similar kind of behavior, e.g. past purchase pattern, feedback, amount of the purchase seem to have similar kind of product preferences. A group of customers who buy a product with high rating are more likely to buy a product of high rating. This information can be used to club users into different groups and show them the filtered results. So, the objective of this project is to develop a book recommendation system based on collaborative filtering. 
+Introduction 
+ 
+Over the last decade, there has a rapid growth in the internet users. The growth in internet users between 2000-2018 is more than 1000 percent and it’ still growing. Companies like Amazon, Flipkart, eBay, Netflix and YouTube introduce new stuff every single day.   
+ 
+There is a high probability of the user being deluged with the content getting uploaded into these websites if the content was not personalized, and soon users would lose their interest. Here comes the recommendation system for the rescue. In terms of volume recommendation system is able to handle a big amount of data. Although there has been a good amount of research on this topic, but still this remains a topic of interest given the significance.   
+ 
+While looking for the similar projects, I noticed that most of them have not tried to consider the “Cold Start Problem” i.e. showing recommendation for a new user or new product that our system has no data available for. In this project, I expect to deal with that part of the problem. Apart from this, my plan is to do a literature survey on “Cold Approach Problem” in the recommendation system. 
 
-Proposed Idea:  
+Purpose 
+ 
+The whole project revolves around the cold start problem in Collaborative filtering-based recommendation systems. First, a basic collaborative filteringbased recommendation system was built and then one with the variations to address the cold start problem. The purpose of this project is not to improvise the existing collaborative filtering-based recommendation system but to see if the available information from the user can be used to ease the recommendation process. 
+ 
+Also, I did a literature survey on some recent papers in the reputed journals. This was done to keep up with the recent research on this area and identify some where this project can be extended in the future. 
 
-The main idea of the project is to hit every single part starting from the data, segregating customers into the groups and building a recommendation system.  
-
-In the data part we can either pick the preprocessed data or the unprocessed data, but I am planning to pick the unprocessed because it’s easier to format the data based on my preference than to work on some other form of data, which might be more suitable for others. E.g. changing the form of data. 
-
-Customer segregation can be done based on various things e.g. frequency of purchase, amount of purchase, categories of the product they frequently buy. This part is highly dependent on the data available on internet. 
-
-Last part is to build a recommendation system and integrate it to work with the last part; i.e. collaborative filtering.  
-
-Outcome: 
-
-The machine learning algorithms are dominantly going to be used in the customer segregation part and recommendation part. The date would need to be processed to be processed based on the machine learning algorithm used in earlier mentioned part. My goal is to apply different famous algorithms and create a comparison based on performance; i.e. time, accuracy etc.  
-
-As there are two different parts where the ML algorithms can be applied, so it would also be possible to analyze what combination of the algorithm works best. 
-
-References: 
-
-https://machinelearningmastery.com/practical-machine-learning-problems/ 
-
-http://www.ijrbsm.org/pdf/v2-i11/5.pdf 
-
-https://www.ritchieng.com/machine-learning-project-customer-segments/ 
-
-https://www.kaggle.com/zygmunt/goodbooks-10k [dataset] 
-
-https://www.kaggle.com/philippsp/book-recommender-collaborative-filtering-shiny/data 
-
-Note: I have proposed this idea based on my current knowledge, I would want to add things as we proceed towards the end of the course or after your review.
+The link to the video: 
