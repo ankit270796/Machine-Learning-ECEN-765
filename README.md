@@ -20,4 +20,4 @@ The whole project revolves around the cold start problem in Collaborative filter
  
 Also, I did a literature survey on some recent papers in the reputed journals. This was done to keep up with the recent research on this area and identify some where this project can be extended in the future. 
 
-The link to the video: 
+The link to the video: https://youtu.be/6LDtwH5uKtc 
